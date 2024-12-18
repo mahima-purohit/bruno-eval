@@ -1,0 +1,21 @@
+meta {
+  name: add-movie
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:8080/movies
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "title": "DDLJ",
+      "tags": ["romance"],
+      "synopsis": "A skilled thief is given a chance at redemption if he can successfully perform inception.",
+      "release_date": 1990,
+      "cast": ["Shahrukh Khan", "Rani Mukhrjee"]
+  }
+}

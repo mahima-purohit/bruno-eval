@@ -1,0 +1,18 @@
+meta {
+  name: update-movie
+  type: http
+  seq: 4
+}
+
+put {
+  url: http://localhost:8080/movies/675fef6730a4421e156bfeb3
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "title": "Dil Wale Dulhaniya Le Jayenge",
+      "tags" : ["romance","drama"]
+  }
+}
