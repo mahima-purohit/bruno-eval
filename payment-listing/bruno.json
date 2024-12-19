@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "payment-listing",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

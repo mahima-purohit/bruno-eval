@@ -1,0 +1,27 @@
+meta {
+  name: get-listing
+  type: http
+  seq: 2
+}
+
+get {
+  url: http://localhost/payments/v2/list?platform=IOS&appCode=MOBIOS3&customerStatus=lcm&tag=UPISUBCATAND&appVersion=590&transactionId=99301907955&clientId=movies
+  body: none
+  auth: none
+}
+
+params:query {
+  platform: IOS
+  appCode: MOBIOS3
+  customerStatus: lcm
+  tag: UPISUBCATAND
+  appVersion: 590
+  transactionId: 99301907955
+  clientId: movies
+}
+
+headers {
+  memberid: 97015075
+  lsid: H3NV3K5X3EFB1TYFWOAR
+  x-phone: 8103487656
+}
